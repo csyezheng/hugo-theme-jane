@@ -10,6 +10,10 @@ code {
   color: $code-color;
 }
 
+pre {
+  background: $code-background;
+  color: $code-color;
+}
 code, pre {
   font-size: $code-font-size;
   font-family: $code-font-family;
