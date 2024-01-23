@@ -1,0 +1,11 @@
+/* Style the close arrow */
+details summary {
+    display: list-item;
+    list-style-type: "►";
+}
+
+/* Style the open arrow */
+details[open] summary {
+    display: list-item;
+    list-style-type: "▼"; 
+}

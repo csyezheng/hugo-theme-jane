@@ -43,7 +43,7 @@
   <div class="post-content">
     {{ if .Site.Params.homeFullContent }}
     <div class="post-summary">
-      {{ .Content }}
+      {{ .Content  | safeHTML}}
     </div>
     {{ else }}
     <div class="post-summary">

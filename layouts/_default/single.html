@@ -16,7 +16,7 @@
 
   <!-- Content -->
   <div class="post-content">
-      {{ .Content }}
+      {{ .Content | safeHTML}}
   </div>
 
   <!-- Copyright -->
